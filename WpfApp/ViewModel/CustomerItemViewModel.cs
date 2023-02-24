@@ -1,14 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
-using WpfApp.Model;
+﻿using WpfApp.Model;
 
 namespace WpfApp.ViewModel
 {
     public class CustomerItemViewModel : ValidationViewModelBase
     {
         private readonly Customer _model;
-        private string? firstName;
-        private string? lastName;
-        private bool isDeveloper;
 
         public CustomerItemViewModel(Customer model)
         {
