@@ -1,14 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using WpfApp.Model;
+using WpfApp.Application.Interfaces;
+using WpfApp.Domain.Entities;
 
-namespace WpfApp.Data
+namespace WpfApp.Infrastructure.Persistence
 {
-    public interface IProductDataProvider
-    {
-        Task<IEnumerable<Product>?> GetAllAsync();
-    }
-
     public class ProductDataProvider : IProductDataProvider
     {
         public async Task<IEnumerable<Product>?> GetAllAsync()

@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.Windows;
-using WpfApp.Data;
+using WpfApp.Application.Interfaces;
+using WpfApp.Infrastructure.Persistence;
 using WpfApp.ViewModel;
 
 namespace WpfApp
@@ -8,7 +9,7 @@ namespace WpfApp
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
-    public partial class App : Application
+    public partial class App : System.Windows.Application
     {
         private readonly ServiceProvider _serviceProvider;
 

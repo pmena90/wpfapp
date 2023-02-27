@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Windows.Data;
-using WpfApp.Enum;
+using WpfApp.Domain.Enum;
 
 namespace WpfApp.Converter
 {

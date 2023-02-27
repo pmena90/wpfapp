@@ -1,5 +1,4 @@
 ﻿using System.Windows;
-using WpfApp.Data;
 using WpfApp.ViewModel;
 
 namespace WpfApp

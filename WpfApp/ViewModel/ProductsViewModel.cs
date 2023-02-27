@@ -1,8 +1,8 @@
 ﻿using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
-using WpfApp.Data;
-using WpfApp.Model;
+using WpfApp.Application.Interfaces;
+using WpfApp.Domain.Entities;
 
 namespace WpfApp.ViewModel
 {

@@ -1,10 +1,10 @@
 ﻿using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
+using WpfApp.Application.Interfaces;
 using WpfApp.Command;
-using WpfApp.Data;
-using WpfApp.Enum;
-using WpfApp.Model;
+using WpfApp.Domain.Entities;
+using WpfApp.Domain.Enum;
 
 namespace WpfApp.ViewModel
 {

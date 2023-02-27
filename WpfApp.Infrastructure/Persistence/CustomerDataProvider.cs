@@ -1,14 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using WpfApp.Model;
+using WpfApp.Application.Interfaces;
+using WpfApp.Domain.Entities;
 
-namespace WpfApp.Data
+namespace WpfApp.Infrastructure.Persistence
 {
-    public interface ICustomerDataProvider
-    {
-        Task<IEnumerable<Customer>?> GetAllAsync();
-    }
-
     public class CustomerDataProvider : ICustomerDataProvider
     {
         public async Task<IEnumerable<Customer>?> GetAllAsync()

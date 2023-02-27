@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-using WpfApp.Data;
+using WpfApp.Infrastructure.Persistence;
 using WpfApp.ViewModel;
 
 namespace WpfApp.Views

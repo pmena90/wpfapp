@@ -1,4 +1,4 @@
-﻿using WpfApp.Model;
+﻿using WpfApp.Domain.Entities;
 
 namespace WpfApp.ViewModel
 {

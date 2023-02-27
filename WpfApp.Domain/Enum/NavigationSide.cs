@@ -1,4 +1,4 @@
-﻿namespace WpfApp.Enum
+﻿namespace WpfApp.Domain.Enum
 {
     public enum NavigationSide
     {

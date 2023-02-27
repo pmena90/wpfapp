@@ -1,4 +1,4 @@
-﻿namespace WpfApp.Model
+﻿namespace WpfApp.Domain.Entities
 {
     public class Product
     {
